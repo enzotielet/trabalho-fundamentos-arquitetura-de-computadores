@@ -1,0 +1,25 @@
+PARAMETROS DE ENTRADA
+Arquivo de entrada: entrada2.txt
+Politica de escrita: 1 (write-back)
+Tamanho da linha/bloco: 128 bytes
+Numero de linhas da cache: 64
+Associatividade: 8 linha(s) por conjunto
+Numero de conjuntos: 8
+Hit time: 4 ns
+Politica de substituicao: LRU
+Tempo de leitura da memoria principal: 60 ns
+Tempo de escrita da memoria principal: 60 ns
+
+RESULTADOS DA SIMULACAO
+Total de enderecos no arquivo de entrada: 51200
+Total de leituras no arquivo: 45056
+Total de escritas no arquivo: 6144
+Total de leituras da memoria principal: 5154
+Total de escritas da memoria principal: 1026
+Total de acessos a memoria principal: 6180
+
+Taxa de acerto (hit rate):
+   - Leitura: 0.9084 (40928 acertos de 45056 leituras)
+   - Escrita: 0.8330 (5118 acertos de 6144 escritas)
+   - Global: 0.8993 (46046 acertos de 51200 acessos)
+Tempo medio de acesso da cache: 11.2422 ns
