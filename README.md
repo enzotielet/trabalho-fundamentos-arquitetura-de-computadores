@@ -1,4 +1,4 @@
-O arquivo rodar_testes_cache executa todos os testes que foram usados para a analise da perfomance do programa 
+O arquivo rodar_testes_cache executa todos os testes que foram usados para a analise da perfomance do programa \n
 O arquivo gerar_excel_cache_com_graficos faz a mesma coisa só que já cria graficos no excel
 Os resultados das simulações estão na pasta resultados 
 O executavel pode gerar a simulação com duas formas de entrada possiveis, ou executando ele e ele pergunta o valor de cada parâmetro ou é possivel roda o nome dele seguido das variaveis de entrada. 
